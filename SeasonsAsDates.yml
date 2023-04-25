@@ -1,0 +1,6 @@
+extends: existence
+message: Avoid using seasons to indicate a time of year.
+level: warning
+ignorecase: true
+tokens:
+  - (spring|summer|winter|fall|autumn) +(of )?'?\d{2,4}
